@@ -1,0 +1,12 @@
+fun sum(a: Int, b: Int): Int {
+    return a + b
+}
+
+fun main() {
+    println("Sum of 5 and 3 is: ${sum(5, 3)}")
+    println("Sum of 10 and 20 is: ${sum(10, 20)}")
+}
+```
+**Output:**
+Sum of 5 and 3 is: 8
+Sum of 10 and 20 is: 30
