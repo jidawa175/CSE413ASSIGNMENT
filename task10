@@ -1,0 +1,9 @@
+fun main() {
+    val multiply: (Int, Int) -> Int = { a, b -> a * b }
+
+    val result = multiply(4, 5)
+    println("Product of 4 and 5 is: $result")
+}
+```
+**Output:**
+Product of 4 and 5 is: 20
